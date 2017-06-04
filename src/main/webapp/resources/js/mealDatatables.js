@@ -26,13 +26,7 @@ $(function () {
         "info": true,
         "columns": [
             {
-                "data": "dateTime",
-                "render": function (date, type, row) {
-                    if (type === 'display') {
-                        return formatDate(date);
-                    }
-                    return date;
-                }
+                "data": "dateTimeUI"
             },
             {
                 "data": "description"
