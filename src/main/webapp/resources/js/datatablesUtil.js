@@ -2,6 +2,7 @@ var form;
 
 function makeEditable() {
     form = $('#detailsForm');
+    debugger;
     $(document).ajaxError(function (event, jqXHR, options, jsExc) {
         failNoty(jqXHR);
     });
@@ -73,9 +74,11 @@ function successNoty(key) {
 }
 
 function failNoty(jqXHR) {
+    debugger;
     closeNoty();
+    var errorInfo = $.parseJSON(jqXHR.responseText);
     failedNote = noty({
-        text: i18n['common.errorStatus'] + ': ' + jqXHR.status + (jqXHR.responseJSON ? '<br>' + jqXHR.responseJSON : ''),
+        text: i18n['common.errorStatus'] + ': ' + jqXHR.status + '<br>'+ errorInfo.cause + '<br>' + errorInfo.detail,
         type: 'error',
         layout: 'bottomRight'
     });
