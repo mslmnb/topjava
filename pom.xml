@@ -66,6 +66,7 @@
                 <version>2.19.1</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <skipTests>true</skipTests>
                 </configuration>
             </plugin>
 
