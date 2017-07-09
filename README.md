@@ -1,6 +1,6 @@
-![travis build](https://travis-ci.org/mslmnb/topjava.svg?branch=master)
+[![travis build](https://travis-ci.org/mslmnb/topjava.svg?branch=master)](https://travis-ci.org/mslmnb/topjava)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c610fd8fe1e04af4ae3ef24b618a28e9)](https://www.codacy.com/app/mslmnb/topjava?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mslmnb/topjava&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c610fd8fe1e04af4ae3ef24b618a28e9)](https://www.codacy.com/app/mslmnb/topjava)
 
 
 Java Enterprise Online Project
