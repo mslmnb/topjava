@@ -1,4 +1,9 @@
-Java Enterprise Online Project 
+![travis build](https://travis-ci.org/mslmnb/topjava.svg?branch=master)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c610fd8fe1e04af4ae3ef24b618a28e9)](https://www.codacy.com/app/mslmnb/topjava?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=mslmnb/topjava&amp;utm_campaign=Badge_Grade)
+
+
+Java Enterprise Online Project
 ===============================
 Наиболее востребованные технологии /инструменты / фреймворки Java Enterprise:
 Maven/ Spring/ Security/ JPA(Hibernate)/ REST(Jackson)/ Bootstrap(CSS)/ jQuery + plugins.
